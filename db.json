@@ -1,15 +1,236 @@
 {
-    "users":
-    [
-        {
-            "id": 1,
-            "name": "John",
-            "email": "john@email.com"
-        },
-        {
-            "id": 2,
-            "name": "jane",
-            "email": "jane@email.com"
-        }
+    "user": [
+      {
+        "id": 1,
+        "name": "Paulos Antoniou",
+        "password": "xxxx",
+        "email": "paulos@gmail.com",
+        "subscriber": false
+      },
+      {
+        "id": 2,
+        "name": "Veronica Vladimirovna",
+        "password": "xxxx",
+        "email": "veronica@gmail.com",
+        "subscriber": false
+      },
+      {
+        "id": 3,
+        "name": "Laura Marin-Elena",
+        "password": "xxxx",
+        "email": "laura@gmail.com",
+        "subscriber": false
+      },
+      {
+        "id": 4,
+        "name": "Svitlana Yarish",
+        "password": "xxxx",
+        "email": "svitlana@gmail.com",
+        "subscriber": false
+      },
+      {
+        "name": "Sam maolo",
+        "password": "xxxx",
+        "email": "s@gmail.com",
+        "subscriber": false,
+        "id": 5
+      },
+      {
+        "name": "nama",
+        "password": "xxxx",
+        "email": "bla@email.com",
+        "subscriber": false,
+        "id": 6
+      },
+      {
+        "name": "naka",
+        "password": "xxxx",
+        "email": "b@emai.com",
+        "subscriber": false,
+        "id": 7
+      }
+    ],
+    "contact": [
+      {
+        "id": 1,
+        "name": "Paulos Antoniou",
+        "email": "paulos@gmail.com",
+        "message": "text"
+      },
+      {
+        "id": 2,
+        "name": "Veronica Vladimirovna",
+        "email": "veronica@gmail.com",
+        "message": "text"
+      },
+      {
+        "id": 3,
+        "name": "Laura Marin-Elena",
+        "email": "laura@gmail.com",
+        "message": "text"
+      },
+      {
+        "name": "testing",
+        "email": "e@email.com",
+        "message": "2222",
+        "id": 4
+      },
+      {
+        "name": "Chris",
+        "email": "chris@gmail.com",
+        "message": "Hello!",
+        "id": 5
+      },
+      {
+        "name": "Chris",
+        "email": "chris@gmail.com",
+        "message": "Hello!",
+        "id": 6
+      },
+      {
+        "name": "Chris",
+        "email": "chris@gmail.com",
+        "message": "Hello!",
+        "id": 7
+      },
+      {
+        "name": "Test",
+        "email": "test@gmail.com",
+        "message": "Test",
+        "id": 8
+      },
+      {
+        "name": "Test",
+        "email": "test@gmail.com",
+        "message": "Test",
+        "id": 9
+      },
+      {
+        "name": "Test",
+        "email": "test@gmail.com",
+        "message": "Test",
+        "id": 10
+      },
+      {
+        "name": "Test",
+        "email": "test@gmail.com",
+        "message": "Test",
+        "id": 11
+      },
+      {
+        "name": "Test",
+        "email": "test@gmail.com",
+        "message": "Test",
+        "id": 12
+      },
+      {
+        "name": "Test",
+        "email": "test@gmail.com",
+        "message": "Test",
+        "id": 13
+      },
+      {
+        "name": "test",
+        "email": "test@gmail.com",
+        "message": "aaaa",
+        "id": 14
+      },
+      {
+        "name": "test1",
+        "email": "test1@gmail.com",
+        "message": "Test1",
+        "id": 15
+      },
+      {
+        "name": "test2",
+        "email": "test2@gmail.com",
+        "message": "test2",
+        "id": 16
+      },
+      {
+        "name": "nama",
+        "email": "mana@gmail.com",
+        "message": "hello",
+        "id": 17
+      }
+    ],
+    "podcast": [
+      {
+        "podcastId": 1,
+        "title": "#podcast 1: Krieg in der Ukraine",
+        "img": "https://images.unsplash.com/photo-1662459109819-bda9990664c6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTg4fHxwb2RjYXN0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=300&q=60",
+        "text": "Krieg in der Ukraine",
+        "speakers": "Christof",
+        "topics": [
+          "food",
+          "traveling",
+          "weather"
+        ],
+        "date": "10 January 2023",
+        "audio": "https://docs.google.com/uc?id=1M4V2GHEWIOzF2YQoiAYGH26-FBVn47PS&export=download"
+      },
+      {
+        "podcastId": 2,
+        "title": "#podcast 2: Künstliche Intellligenz",
+        "img": "https://images.unsplash.com/photo-1662459109819-bda9990664c6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTg4fHxwb2RjYXN0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=300&q=60",
+        "text": "Payable text_Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+        "speakers": "Maria",
+        "topics": [
+          "seasons",
+          "politics",
+          "colors"
+        ],
+        "date": "11 January 2023",
+        "audio": "https://docs.google.com/uc?id=1smxqPQ5oSljtb-KbGbVF5ZoIIfstXVhJ&export=download"
+      },
+      {
+        "podcastId": 3,
+        "title": "#podcast 3: Jahreszeiten",
+        "img": "https://images.unsplash.com/photo-1662459109819-bda9990664c6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTg4fHxwb2RjYXN0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=300&q=60",
+        "text": "Payable text_Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+        "speakers": [
+          "Maria",
+          "Christof"
+        ],
+        "topics": [
+          "languages",
+          "countries",
+          "subjects"
+        ],
+        "date": "12 January 2023",
+        "audio": "https://docs.google.com/uc?id=1YINgGPDUJfbSanwa089E4yu8ccTF_u_B&export=download"
+      },
+      {
+        "podcastId": 4,
+        "title": "#podcast 4: Entschuldigung",
+        "img": "https://images.unsplash.com/photo-1662459109819-bda9990664c6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTg4fHxwb2RjYXN0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=300&q=60",
+        "text": "Payable text_Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+        "speakers": [
+          "Maria",
+          "Christof"
+        ],
+        "topics": [
+          "cars",
+          "hobby"
+        ],
+        "date": "13 January 2023",
+        "audio": "https://docs.google.com/uc?id=1gDkD_XiKYJ8deA4WzqKeITQKX6UuNHzo&export=download"
+      },
+      {
+        "podcastId": 5,
+        "title": "#podcast 5: Arbeit",
+        "img": "https://images.unsplash.com/photo-1662459109819-bda9990664c6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTg4fHxwb2RjYXN0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=300&q=60",
+        "text": "Payable text_Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+        "speakers": [
+          "Maria",
+          "Christof"
+        ],
+        "topics": [
+          "friends",
+          "family"
+        ],
+        "date": "14 January 2023",
+        "audio": "https://docs.google.com/uc?id=1gDkD_XiKYJ8deA4WzqKeITQKX6UuNHzo&export=download"
+      }
     ]
-}
+  }
